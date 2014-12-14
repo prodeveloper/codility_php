@@ -15,5 +15,6 @@ function solution($A)
             $max = $A[$i];
         }
     }
+    //Comparison tells us that 
     return (count($counting) == $max) && ($max == $n) ? 1 : 0;
 }
